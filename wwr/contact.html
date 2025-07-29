@@ -3,23 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rafting Site | Contact Us</title>
-  <meta name="description" content="Contact White Water Rafting to ask questions, make reservations, or give feedback. We’d love to hear from you.">
-
-  <!-- Google Fonts -->
+  <title>White Water Rafting | Contact Us</title>
+  <meta name="description" content="Contact White Water Rafting to ask questions, make reservations, or provide feedback.">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Lato&display=swap" rel="stylesheet">
-
-  <!-- CSS Link -->
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="contact.css">
 </head>
 <body>
   <header>
-    <img src="Images/logos.png" alt="Rafting Site Logo">
+    <img src="images/logos.png" alt="Rafting Site Logo">
     <nav>
       <a href="index.html">Home</a>
-      <a href="index.html">About Us</a>
-      <a href="contact.html">Contact</a>
+      <a href="about.html">About Us</a>
       <a href="trips.html">Trips</a>
+      <a href="contact.html">Contact</a>
     </nav>
   </header>
 
@@ -29,36 +25,56 @@
       <p><strong>Address:</strong> 123 River Run Road, Rapids City, RC 80000</p>
       <p><strong>Phone:</strong> (555) 123-4567</p>
       <p><strong>Email:</strong> info@whitewaterrafting.com</p>
-      <iframe src="https://www.google.com/maps/embed?pb=..." width="100%" height="300" loading="lazy" allowfullscreen></iframe>
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.9217459247736!2d-74.00601518459358!3d40.712775779331655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7d722f99ff!2sSample%20Location!5e0!3m2!1sen!2sus!4v1617730977366!5m2!1sen!2sus" 
+        width="100%" 
+        height="300" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+
     </section>
 
     <section class="employees">
       <h2>Meet Our Team</h2>
-      <img src="Images/employee1.jpg" alt="Sarah - Lead Guide">
-      <img src="Images/employee2.jpg" alt="John - Trip Coordinator">
-      <img src="Images/employee3.jpg" alt="Aisha - Guest Support">
+      <div class="employee-grid">
+        <figure>
+          <img src="images/employee1.jpg" alt="Sarah - Lead Guide">
+          <figcaption>Sarah - Lead Guide</figcaption>
+        </figure>
+        <figure>
+          <img src="images/employee2.jpg" alt="John - Trip Coordinator">
+          <figcaption>John - Trip Coordinator</figcaption>
+        </figure>
+        <figure>
+          <img src="images/employee3.jpg" alt="Aisha - Guest Support">
+          <figcaption>Aisha - Guest Support</figcaption>
+        </figure>
+      </div>
     </section>
 
     <section class="contact-form">
       <h2>Send Us a Message</h2>
       <form>
-        <label for="name">Full Name:</label><br>
-        <input type="text" id="name" name="name" required><br><br>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
 
-        <label for="email">Email Address:</label><br>
-        <input type="email" id="email" name="email" required><br><br>
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
 
         <p>Purpose of your message:</p>
-        <label><input type="radio" name="purpose" value="general" required> General Inquiry</label><br>
-        <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label><br>
-        <label><input type="radio" name="purpose" value="suggestion"> Website Suggestion</label><br><br>
+        <label><input type="radio" name="purpose" value="general" required> General Inquiry</label>
+        <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label>
+        <label><input type="radio" name="purpose" value="suggestion"> Website Suggestion</label>
 
-        <label for="message">Your Message:</label><br>
-        <textarea id="message" name="message" rows="5" required></textarea><br><br>
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
 
-        <label><input type="checkbox" name="subscribe"> Please subscribe me to the monthly newsletter</label><br><br>
+        <label><input type="checkbox" name="subscribe"> Please subscribe me to the monthly newsletter</label>
 
-        <button type="submit">Send Your Message</button>
+        <button type="submit">Send Message</button>
       </form>
     </section>
   </main>
@@ -68,7 +84,7 @@
     <a href="https://facebook.com"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" width="30"></a>
     <a href="https://twitter.com"><img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter" width="30"></a>
     <a href="https://instagram.com"><img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Instagram" width="30"></a>
-    <p><a href="Images/contact-wireframe.png" target="_blank">View Contact Page Wireframe</a></p>
+    <p><a href="images/contact-wireframe.png" target="_blank">View Contact Page Wireframe</a></p>
   </footer>
 </body>
 </html>
